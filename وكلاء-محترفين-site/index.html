@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>وكلاء محترفين | Professional Agents</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== شريط التنقل ===== -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">
+        <span class="logo-icon">★</span>
+        <span>وكلاء محترفين</span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#agents">الوكلاء</a></li>
+          <li><a href="#services">الخدمات</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="القائمة">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== القسم الرئيسي (Hero) ===== -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="badge">✨ منصة الوكلاء الأولى</span>
+        <h1>فريق من <span class="gradient-text">الوكلاء المحترفين</span><br/>في خدمتك على مدار الساعة</h1>
+        <p>نقدم لك نخبة من أفضل الوكلاء في مختلف المجالات — عقارات، تأمين، تسويق، استشارات قانونية، وخدمات أعمال — بخبرة طويلة ونتائج موثوقة.</p>
+        <div class="hero-buttons">
+          <a href="#agents" class="btn btn-primary">تعرف على الوكلاء</a>
+          <a href="#contact" class="btn btn-outline">تواصل فوري</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><h3>+150</h3><p>وكيل معتمد</p></div>
+          <div class="stat"><h3>+10K</h3><p>عميل سعيد</p></div>
+          <div class="stat"><h3>24/7</h3><p>دعم متواصل</p></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="floating-card card-1">
+          <div class="card-icon">🏆</div>
+          <div>
+            <strong>وكيل الشهر</strong>
+            <small>أحمد محمود</small>
+          </div>
+        </div>
+        <div class="floating-card card-2">
+          <div class="card-icon">⚡</div>
+          <div>
+            <strong>استجابة فورية</strong>
+            <small>أقل من 5 دقائق</small>
+          </div>
+        </div>
+        <div class="floating-card card-3">
+          <div class="card-icon">💼</div>
+          <div>
+            <strong>10+ سنوات خبرة</strong>
+            <small>في السوق</small>
+          </div>
+        </div>
+        <div class="hero-circle"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== من نحن ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">من نحن</span>
+        <h2>لماذا تختار <span class="gradient-text">وكلاء محترفين</span>؟</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="icon-box">🎯</div>
+          <h3>خبرة عالية</h3>
+          <p>وكلاؤنا مختارون بعناية بعد سنوات من النجاح والإنجازات في مجالاتهم.</p>
+        </div>
+        <div class="about-card">
+          <div class="icon-box">🤝</div>
+          <h3>ثقة وشفافية</h3>
+          <p>نتعامل بصدق ووضوح كاملين مع جميع العملاء، بدون رسوم خفية.</p>
+        </div>
+        <div class="about-card">
+          <div class="icon-box">🚀</div>
+          <h3>نتائج سريعة</h3>
+          <p>نلتزم بالمواعيد ونحقق أهدافك في أسرع وقت وبجودة عالية.</p>
+        </div>
+        <div class="about-card">
+          <div class="icon-box">🛡️</div>
+          <h3>معتمدون رسمياً</h3>
+          <p>جميع الوكلاء حاصلون على تراخيص رسمية ومعتمدون من الجهات المختصة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== الوكلاء ===== -->
+  <section id="agents" class="agents">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">فريقنا</span>
+        <h2>نخبة من <span class="gradient-text">أفضل الوكلاء</span></h2>
+      </div>
+      <div class="agents-grid" id="agentsGrid">
+        <!-- يتم ملؤها بـ JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== الخدمات ===== -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">خدماتنا</span>
+        <h2>خدمات <span class="gradient-text">شاملة ومتكاملة</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service">
+          <span class="service-icon">🏠</span>
+          <h3>عقارات</h3>
+          <p>بيع وشراء وتأجير العقارات السكنية والتجارية بأفضل الأسعار.</p>
+        </div>
+        <div class="service">
+          <span class="service-icon">📑</span>
+          <h3>استشارات قانونية</h3>
+          <p>فريق قانوني متخصص في قضايا الأعمال والعقود والتحكيم.</p>
+        </div>
+        <div class="service">
+          <span class="service-icon">📊</span>
+          <h3>تسويق ومبيعات</h3>
+          <p>حملات تسويقية احترافية تزيد من مبيعاتك وانتشار علامتك التجارية.</p>
+        </div>
+        <div class="service">
+          <span class="service-icon">💰</span>
+          <h3>تأمين واستثمار</h3>
+          <p>خطط تأمين شاملة واستشارات استثمارية مضمونة العوائد.</p>
+        </div>
+        <div class="service">
+          <span class="service-icon">✈️</span>
+          <h3>سفر وسياحة</h3>
+          <p>حجز تذاكر، فنادق، وتأشيرات مع برامج سياحية مخصصة.</p>
+        </div>
+        <div class="service">
+          <span class="service-icon">🏢</span>
+          <h3>خدمات أعمال</h3>
+          <p>تأسيس شركات، استخراج تراخيص، وخدمات محاسبية وضريبية.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== تواصل معنا ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">تواصل معنا</span>
+        <h2>نحن هنا <span class="gradient-text">لخدمتك</span></h2>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>العنوان</strong>
+              <p>القاهرة، مصر</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📞</span>
+            <div>
+              <strong>الهاتف</strong>
+              <p dir="ltr" style="text-align:right">+20 100 000 0000</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">✉️</span>
+            <div>
+              <strong>البريد الإلكتروني</strong>
+              <p>info@pro-agents.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🕒</span>
+            <div>
+              <strong>ساعات العمل</strong>
+              <p>طوال أيام الأسبوع - 24/7</p>
+            </div>
+          </div>
+          <div class="social">
+            <a href="#" aria-label="فيسبوك" class="social-link">f</a>
+            <a href="#" aria-label="تويتر" class="social-link">𝕏</a>
+            <a href="#" aria-label="إنستجرام" class="social-link">IG</a>
+            <a href="#" aria-label="لينكدإن" class="social-link">in</a>
+            <a href="#" aria-label="واتساب" class="social-link">💬</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">الاسم الكامل</label>
+              <input type="text" id="name" placeholder="أدخل اسمك" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">رقم الهاتف</label>
+              <input type="tel" id="phone" placeholder="01xxxxxxxxx" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" placeholder="example@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">الخدمة المطلوبة</label>
+            <select id="subject" required>
+              <option value="">-- اختر الخدمة --</option>
+              <option>عقارات</option>
+              <option>استشارات قانونية</option>
+              <option>تسويق ومبيعات</option>
+              <option>تأمين واستثمار</option>
+              <option>سفر وسياحة</option>
+              <option>خدمات أعمال</option>
+              <option>أخرى</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">رسالتك</label>
+            <textarea id="message" rows="5" placeholder="اكتب تفاصيل طلبك هنا..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">إرسال الرسالة 📨</button>
+          <p class="form-success" id="formSuccess" hidden>✅ تم إرسال رسالتك بنجاح! سنتواصل معك قريباً.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== الفوتر ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <a href="#home" class="logo">
+          <span class="logo-icon">★</span>
+          <span>وكلاء محترفين</span>
+        </a>
+        <p class="footer-desc">منصة الوكلاء الأولى التي تجمع نخبة من أفضل المحترفين في مكان واحد.</p>
+      </div>
+      <div class="footer-links">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#agents">الوكلاء</a></li>
+          <li><a href="#services">الخدمات</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>خدماتنا</h4>
+        <ul>
+          <li><a href="#services">عقارات</a></li>
+          <li><a href="#services">قانونية</a></li>
+          <li><a href="#services">تسويق</a></li>
+          <li><a href="#services">أعمال</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© <span id="year"></span> جميع الحقوق محفوظة - وكلاء محترفين</p>
+    </div>
+  </footer>
+
+  <!-- زر العودة للأعلى -->
+  <button id="toTop" class="to-top" aria-label="العودة للأعلى">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
